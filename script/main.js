@@ -1218,4 +1218,10 @@ $(function() {
 
     });
 
+    $('.our-story1').click(function(event) {
+        event.preventDefault();
+        var html = '<video controls src="images/video.mp4" width="100%" autoplay>';
+        $(this).html(html);
+    });
+
 })(jQuery);
