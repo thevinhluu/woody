@@ -5920,7 +5920,7 @@ ul li {
    content: "";
    background: #fff;
    height: 2px;
-   width: 50px;
+   width: 40px;
    left: 50%;
    transform: translateX(-50%);
    bottom: -8px;
@@ -7120,4 +7120,7 @@ ul li {
    margin: auto;
    width: 90%;
    height: 100%;
+}
+.use-default:hover {
+  color: #C19B76 !important;
 }
